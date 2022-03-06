@@ -1,7 +1,7 @@
 body {
-    background: #03061df1;
-    /* background: linear-gradient(0.1turn,#000000, #385050, #424433, #000000); */
-    color: #fff;
+    /* background: #03061df1; */
+    background: linear-gradient(-3deg, #3e3e5af1, #03061df1);
+    color: rgb(236, 236, 236);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -12,7 +12,6 @@ a {
 
 a:hover {
     color: #fff;
-    /* opacity: 0.7; */
 }
 
 .contacts {
@@ -25,12 +24,9 @@ a:hover {
     color: #fec109;
 }
 
-.head{
-    background: black;
-}
-
 .headText {
     margin-top: 20px;
+    margin-bottom: 20px
 }
 
 .headText2 {
@@ -122,30 +118,69 @@ a:hover {
 @keyframes rotation {
     0% {
         transform:skewX(1deg);
-        transform:skewY(-3deg);
+        transform:skewY(-2deg);
     }
     50% {
         transform:skewX(-1deg);
-        transform:skewY(3deg);
-        filter: blur(3px);
+        transform:skewY(2deg);
         filter: contrast(130%);
     }
     100% {
         transform:skewX(1deg);
-        transform:skewY(-3deg);
+        transform:skewY(-2deg);
     }
 
 }
 
-
 .pageEnd {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     height: 20px;
     font-size: 10px;
     margin-top: 20px;
     margin-left: 40px;
     clear: both;
+}
+
+.buyNFT {
+    margin: auto;
+    display: flex;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.buyNFT:hover {
+    color: #000;
+    background: #fff;
+}
+
+.buyNFTSmall {
+    margin: auto;
+    display: flex;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.buyNFTSmall:hover {
+    color: #000;
+    background: #fff;
 }
 
 @media screen and (max-width: 1200px) {
@@ -194,4 +229,25 @@ a:hover {
 
 .clearFix {
     clear: both;
+}
+
+
+.navList {
+    padding: 20px 100px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.header {
+    width: 100%;
+    font-weight: 100;
+    font-size: 18px;
+    /* background: linear-gradient(#0e0e13f1, #03061df1); */
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
