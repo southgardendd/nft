@@ -123,7 +123,7 @@ a:hover {
     50% {
         transform:skewX(-1deg);
         transform:skewY(2deg);
-        filter: contrast(130%);
+        filter: contrast(131%);
     }
     100% {
         transform:skewX(1deg);
