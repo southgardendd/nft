@@ -154,12 +154,17 @@ a:hover {
     clear: both;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     body {
         font-size:1.5em;
+        max-width: 600px;
     }
     …
     h2 {
         font-size:2.5em;
     }
+}
+
+.clearFix {
+    clear: both;
 }
