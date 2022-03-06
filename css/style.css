@@ -153,3 +153,13 @@ a:hover {
     margin-left: 40px;
     clear: both;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size:1.5em;
+    }
+    …
+    h2 {
+        font-size:2.5em;
+    }
+}
