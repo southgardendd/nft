@@ -143,32 +143,11 @@ a:hover {
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-    margin-bottom: 40px;
     text-decoration: none;
     font-size: 20px;
 }
 
 .buyNFT:hover {
-    color: #000;
-    background: #fff;
-}
-
-.buyNFTSmall {
-    margin: auto;
-    display: flex;
-    width: 60px;
-    height: 25px;
-    border-radius: 5px;
-    border: 1px solid white;
-    background: none;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    text-decoration: none;
-    font-size: 10px;
-}
-
-.buyNFTSmall:hover {
     color: #000;
     background: #fff;
 }
@@ -226,13 +205,14 @@ a:hover {
     padding: 20px 100px 20px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     /* align-items: center; */
 }
 
 .header {
     width: 100%;
-    font-weight: 100;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 22px;
     /* background: linear-gradient(#0e0e13f1, #03061df1); */
 }
 
@@ -240,4 +220,9 @@ ul {
     padding: 0;
     margin: 0;
     list-style: none;
+}
+
+footer {
+    margin: 40px 20px 20px;
+    font-size: 10px;
 }
