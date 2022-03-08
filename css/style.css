@@ -286,6 +286,7 @@ input {
    
   .btn2:hover {
     animation: animate 8s linear infinite;
+    color: #000;
   }
    
   @keyframes animate {
