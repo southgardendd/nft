@@ -227,17 +227,29 @@ ul {
 }
 
 footer {
-    margin: 100px 20px 0px 20px;
+    margin: 100px 20px 20px 20px;
     font-size: 10px;
 }
-
-.blackBack {
-    /* background: rgb(17, 17, 17); */
-}
-
 .btnDown {
     display: flex;
     justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.smallTxt {
+    font-size: 15px;
+}
+
+.form-control {
+    width: 500px;
+    margin: auto;
+}
+
+input {
+    margin-bottom: 0px;
 }
 
 .btn {
@@ -269,6 +281,11 @@ footer {
     100% {
       background-position: 400%;
     }
+  }
+
+  .cntct {
+      border: 1px solid #fff;
+      border: 15px;
   }
    
   .btn:before {
