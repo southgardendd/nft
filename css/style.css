@@ -21,6 +21,11 @@ a:hover {
     width: fit-content;
 } */
 
+hr {
+    width: 1100px;
+    margin: auto;
+}
+
 .contacts {
     text-decoration: none;
     color: #fec109;
@@ -48,7 +53,7 @@ a:hover {
 }
 
 .mainInfo {
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     margin-top: 40px;
     font-size: 20px;
@@ -200,6 +205,10 @@ footer {
     text-align: center;
 }
 
+.right {
+    text-align: right;
+}
+
 .smallTxt {
     font-size: 13px;
 }
@@ -277,16 +286,18 @@ input {
 }
 
 .btn3 {
-    margin-top: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 90px;
+    width: 250px;
+    height: 80px;
     text-align: center;
     line-height: 23px;
     font-size: 50px;
+    font-weight: 500;
     box-sizing: border-box;
     background: linear-gradient(90deg, #f4f003, #1f6ba8, #ffeb3b, #03a9f4);
     background-size: 400%;
