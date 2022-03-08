@@ -161,54 +161,9 @@ a:hover {
     opacity: 0.9;
 }
 
-@media screen and (max-width: 1200px) {
-    .mainInfo {
-        font-size:1.5em;
-        width: 1000px;
-    }
-    …
-    h2 {
-        font-size:2.5em;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .mainInfo {
-        font-size:1.5em;
-        width: 700px;
-    }
-    …
-    h2 {
-        font-size:2.5em;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .mainInfo {
-        font-size:1.5em;
-        width: 600px;
-    }
-    …
-    h2 {
-        font-size:2.5em;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .mainInfo {
-        font-size:1.5em;
-        width: 500px;
-    }
-    …
-    h2 {
-        font-size:2.5em;
-    }
-}
-
 .clearFix {
     clear: both;
 }
-
 
 .navList {
     padding: 20px 100px 20px;
@@ -298,7 +253,7 @@ input {
     }
   }
    
-  .btn2:before {
+.btn2:before {
     content: "";
     position: absolute;
     top: -5px;
@@ -311,10 +266,70 @@ input {
     border-radius: 40px;
     opacity: 0;
     transition: .5s;
-  }
+}
    
-  .btn2:hover:before {
+.btn2:hover:before {
     filter: blur(5px);
     opacity: 1;
     animation: animate 8s linear infinite;
-  }
+}
+
+@media screen and (max-width: 1200px) {
+    .mainInfo {
+        font-size:1.5em;
+        width: 1000px;
+    }
+    …
+    h2 {
+        font-size:2.5em;
+    }
+    .btn2 {
+        width: 400px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mainInfo {
+        font-size:1.5em;
+        width: 700px;
+    }
+    …
+    h2 {
+        font-size:2.5em;
+    }
+    .btn2 {
+        width: 400px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mainInfo {
+        font-size:1.5em;
+        width: 600px;
+    }
+    …
+    h2 {
+        font-size:2.5em;
+    }
+    .btn2 {
+        width: 400px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainInfo {
+        font-size:1.5em;
+        width: 500px;
+    }
+    …
+    h2 {
+        font-size:2.5em;
+    }
+    .btn2 {
+        width: 400px;
+        height: 90px;
+    }
+}
