@@ -16,10 +16,10 @@ a:hover {
     opacity: 0.7;
 }
 
-/* .red {
-    background: #bb0000;
+.red {
+    background: #bb00009d;
     width: fit-content;
-} */
+}
 
 hr {
     width: 900px;
@@ -245,7 +245,7 @@ input {
     background: linear-gradient(90deg, #f4c803, #fcff2e, #ffeb3b, #f4f003);
     background-size: 400%;
     border: 1px solid #00000075;
-    border-radius: 30px;
+    border-radius: 15px;
     z-index: 1;
     color: #000;
   }
