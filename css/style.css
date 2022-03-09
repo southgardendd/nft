@@ -223,7 +223,7 @@ footer {
 }
 
 .bord {
-    background: linear-gradient(rgb(17, 17, 17), rgba(100, 100, 100, 0.384));
+    background: linear-gradient(#111111, #49494962);
 }
 
 input {
@@ -242,7 +242,7 @@ input {
     font-size: 22px;
     font-weight: 300;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #f4f003, #1f6ba8, #ffeb3b, #03a9f4);
+    background: linear-gradient(90deg, #f4c803, #fcff2e, #ffeb3b, #f4f003);
     background-size: 400%;
     border: 1px solid #00000075;
     border-radius: 30px;
@@ -299,7 +299,7 @@ input {
     font-size: 50px;
     font-weight: 500;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #f4f003, #1f6ba8, #ffeb3b, #03a9f4);
+    background: linear-gradient(90deg, #f4c803, #fcff2e, #ffeb3b, #f4f003);
     background-size: 400%;
     border: 1px solid #00000075;
     border-radius: 30px;
