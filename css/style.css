@@ -16,10 +16,10 @@ a:hover {
     opacity: 0.7;
 }
 
-.red {
+/* .red {
     background: #bb00009d;
     width: fit-content;
-}
+} */
 
 hr {
     width: 900px;
@@ -132,17 +132,15 @@ hr {
 
 @keyframes rotation {
     0% {
-        transform:skewX(1deg);
-        transform:skewY(-3deg);
+        transform:skewY(-2deg);
     }
     50% {
-        transform:skewX(-1deg);
-        transform:skewY(3deg);
+        transform:skewY(2deg);
         filter: contrast(150%);
     }
     100% {
-        transform:skewX(1deg);
-        transform:skewY(-3deg);
+        transform: perspective();
+        transform:skewY(-2deg);
     }
 
 }
@@ -182,7 +180,6 @@ hr {
     font-weight: 500;
     font-size: 22px;
     font-weight: 300;
-    /* background: linear-gradient(#6d6b00, rgba(0, 0, 0, 0)); */
 }
 
 ul {
