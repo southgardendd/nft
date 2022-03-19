@@ -145,6 +145,11 @@ hr {
 
 }
 
+.nftPh:hover {
+    opacity: 0.7;
+}
+
+
 .buyNFT {
     background: linear-gradient(15deg, #fec109, #fec109c0);
     margin: auto;
@@ -193,6 +198,7 @@ footer {
     font-size: 10px;
     height: 40px;
 }
+
 .btn2Down {
     display: flex;
     justify-content: center;
@@ -385,4 +391,10 @@ input {
         height: 90px;
         font-size: 60px;
     }
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
 }
