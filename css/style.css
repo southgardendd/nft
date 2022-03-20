@@ -31,11 +31,6 @@ hr {
     color: #fec109;
 }
 
-/* .contacts:hover {
-    opacity: 0.7;
-    color: #fec109;
-} */
-
 .headText {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -71,7 +66,7 @@ hr {
 }
 
 .videoBlock {
-    max-width: 620px;
+    max-width: 700px;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -80,7 +75,7 @@ hr {
     border: 1px rgba(66, 66, 66, 0.281) solid;
     border-radius: 15px;
     background: rgb(26, 26, 26);
-    padding: 10px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
     -webkit-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
     -moz-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
     box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
@@ -115,11 +110,12 @@ hr {
     position: absolute;
     width: 455.75px;
     height: 325.98px;
-    right: -208px;
+    right: 208px;
     top: 391.62px;
     background: rgba(3, 81, 153, 0.7);
     filter: blur(100px);
     transform: rotate(-27.67deg);
+    z-index: -1;
 }
 
 .elipseBlue2 {
@@ -137,11 +133,12 @@ hr {
     position: absolute;
     width: 455.75px;
     height: 325.98px;
-    right: -114px;
-    top: 563.62px;
+    right: 208px;
+    top: 663.62px;
     background: rgba(224, 179, 23, 0.7);
     filter: blur(100px);
     transform: rotate(-27.67deg);
+    z-index: -1;
 }
 
 .navbar-dark {
@@ -432,6 +429,7 @@ input {
 
 .borders {
     border-radius: 9px;
+    pointer-events: visibleStroke;
 }
 
 .borders:hover {
@@ -441,8 +439,4 @@ input {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     border-radius: 9px;
-}
-
-video {
-    border-radius: 25px;
 }
