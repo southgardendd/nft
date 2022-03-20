@@ -1,8 +1,8 @@
 body {
-    /* background: #03061df1; */
-    /* background: linear-gradient(-3deg, #3e3e5af1, #03061df1, #03061df1); */
     background: rgb(17, 17, 17);
-    color: #ececec;
+    color: #e7e5e5;
+    /* background: #f7f7f7; */
+    /* color: rgb(43, 43, 43); */
     font-family: 'Poppins', sans-serif;
 }
 
@@ -37,9 +37,13 @@ hr {
 } */
 
 .headText {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.headText2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    /* color: #fec109; */
 }
 
 .headText2 {
@@ -55,18 +59,45 @@ hr {
 .mainInfo {
     max-width: 900px;
     margin: auto;
-    margin-top: 40px;
     font-size: 20px;
     margin-bottom: 40px;
+    border: 1px rgba(66, 66, 66, 0.281) solid;
+    border-radius: 15px;
+    background: rgb(26, 26, 26);
+    padding: 20px 10px 10px 10px;
+    -webkit-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+}
+
+.videoBlock {
+    max-width: 620px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border: 1px rgba(66, 66, 66, 0.281) solid;
+    border-radius: 15px;
+    background: rgb(26, 26, 26);
+    padding: 10px 10px 10px 10px;
+    -webkit-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
 }
 
 .mainInfo2 {
-    text-align: center;
-    max-width: 900px;
+    max-width: 330px;
     margin: auto;
-    margin-top: 40px;
     font-size: 20px;
-    height: 600px;
+    margin-bottom: 40px;
+    border: 1px rgba(66, 66, 66, 0.281) solid;
+    border-radius: 15px;
+    background: rgb(26, 26, 26);
+    padding: 20px 10px 10px 10px;
+    -webkit-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
 }
 
 .noSelect {
@@ -122,33 +153,31 @@ hr {
     margin-right: 40px;
 }
 
-.nftPh {
+/* .nftPh {
     animation-name: rotation;
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     border-radius: 9px;
-}
+} */
 
 @keyframes rotation {
     0% {
-        transform:skewY(-2deg);
+        transform:skewY(0deg);
     }
-    50% {
+    33% {
+        transform:skewY(-2deg);
+        filter: contrast(125%);
+    }
+    66% {
         transform:skewY(2deg);
         filter: contrast(150%);
     }
     100% {
-        transform: perspective();
-        transform:skewY(-2deg);
+        transform:skewY(0deg);
     }
 
 }
-
-.nftPh:hover {
-    opacity: 0.7;
-}
-
 
 .buyNFT {
     background: linear-gradient(15deg, #fec109, #fec109c0);
@@ -174,7 +203,7 @@ hr {
 }
 
 .navList {
-    padding: 20px 100px 20px;
+    padding: 10px 0px 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -184,7 +213,11 @@ hr {
     width: 100%;
     font-weight: 500;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 500;
+    background: rgb(27, 27, 27);
+    -webkit-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 0.1);
 }
 
 ul {
@@ -226,7 +259,7 @@ footer {
 }
 
 .bord {
-    background: linear-gradient(#111111, #49494962);
+    background: linear-gradient(#111111, #2c2c2c62);
 }
 
 input {
@@ -243,7 +276,7 @@ input {
     text-align: center;
     line-height: 23px;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 500;
     box-sizing: border-box;
     background: linear-gradient(90deg, #f4c803, #fcff2e, #ffeb3b, #f4f003);
     background-size: 400%;
@@ -289,8 +322,6 @@ input {
 }
 
 .btn3 {
-    margin-top: 100px;
-    margin-bottom: 50px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -395,6 +426,23 @@ input {
 
 .images {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     margin-bottom: 40px;
+}
+
+.borders {
+    border-radius: 9px;
+}
+
+.borders:hover {
+    /* opacity: 0.8; */
+    animation-name: rotation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 9px;
+}
+
+video {
+    border-radius: 25px;
 }
