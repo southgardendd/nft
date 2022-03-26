@@ -224,7 +224,7 @@ ul {
 }
 
 footer {
-    margin: 100px 20px 0px 20px;
+    margin: 50px 20px 0px 20px;
     font-size: 10px;
     height: 40px;
 }
@@ -439,4 +439,9 @@ input {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     border-radius: 9px;
+}
+
+.socials {
+    margin-top: 60px;
+    word-spacing: 20px;
 }
